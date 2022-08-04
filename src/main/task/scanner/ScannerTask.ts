@@ -198,7 +198,7 @@ export abstract class ScannerTask implements ITask<void, boolean> {
       result.push({
         fileList: fullScanList,
         folderRoot: this.project.metadata.getScanRoot(),
-        winnowingMode: WinnowingMode.FULL_WINNOWING,
+        winnowingMode: WinnowingMode.FULL_WINNOWING_HPSM,
       });
     }
 
